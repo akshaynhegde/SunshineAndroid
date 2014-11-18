@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="today_date_text">Today, Nov 16</string>
+    <string name="degreesText">21˚</string>
+    <string name="deegreestext2">8˚</string>
+    <string name="dummyImageName">dummyImage</string>
+    <string name="weatherImageText">weatherImage</string>
+
+</resources>
