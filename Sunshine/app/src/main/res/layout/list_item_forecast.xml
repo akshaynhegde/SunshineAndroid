@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:id="@+id/list_item_forecast_text_view"
-    android:textSize="@dimen/abc_text_size_title_material">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_item_forecast_layout">
 
-</TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/list_item_forecast_text_view"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:minHeight="200dp" />
+</LinearLayout>

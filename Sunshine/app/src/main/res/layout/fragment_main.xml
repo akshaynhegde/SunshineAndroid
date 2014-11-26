@@ -8,9 +8,9 @@
     android:id="@+id/listView_forecast_layout">
 
     <ListView
-        android:layout_width="305dp"
-        android:layout_height="508dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/listview_forecast"
-        android:layout_gravity="left|top"
-        android:minHeight="@dimen/abc_action_button_min_height_material" />
+        android:layout_gravity="bottom|left|right|top"
+        android:minHeight="100dp" />
 </FrameLayout>

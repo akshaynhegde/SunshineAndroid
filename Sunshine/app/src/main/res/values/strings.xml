@@ -9,5 +9,6 @@
     <string name="deegreestext2">8˚</string>
     <string name="dummyImageName">dummyImage</string>
     <string name="weatherImageText">weatherImage</string>
+    <string name="action_refresh">Refresh</string>
 
 </resources>

@@ -31,6 +31,13 @@ public class ForecastFragment extends Fragment {
     }
 
     @Override
+    public void onCreate(android.os.Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
@@ -39,7 +46,7 @@ public class ForecastFragment extends Fragment {
         String[] strings = {
                 "Today - Sunday - 88/63",
                 "Tomorrow - Foggy - 70/46",
-                "Teus - Snow - 60/20",
+                "Tues - Snow - 60/20",
                 "Weds - Cloudy - 72/63",
                 "Thurs - Rainy - 64/51",
                 "Fri - Foggy - 70/46",
@@ -56,6 +63,11 @@ public class ForecastFragment extends Fragment {
         foreCastListView.setAdapter(listAdapter);
 
         return rootView;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(android.view.Menu menu, android.view.MenuInflater inflater) {
+        inflater.inflate(R.menu.forecastfragment,menu);
     }
 }
 
